@@ -70,17 +70,8 @@ Python: Pandas, Data Cleaning, Feature Engineering
 SQL (PostgreSQL): Data querying, segmentation, business analysis
 Power BI: Data modeling, DAX, dashboard development
 Excel: Data preparation and validation
-📁 Project Structure
-├── data/
-├── notebooks/
-│   └── customer_behavior_analysis.ipynb
-├── sql/
-│   └── analysis_queries.sql
-├── dashboard/
-│   └── powerbi_dashboard.pbix
-├── reports/
-│   └── project_report.pdf
-└── README.md
+
+
 🚀 Key Highlights
 End-to-end analytics pipeline (Python → SQL → Power BI)
 Strong focus on business-driven insights, not just visualization

@@ -1,87 +1,87 @@
-📊 Retail Customer Segmentation & Revenue Analytics
+# 📊 Retail Customer Segmentation & Revenue Analytics
 
-This project demonstrates an end-to-end data analytics workflow, focused on analyzing customer purchasing behavior to uncover actionable business insights. The objective is to transform raw transactional data into meaningful intelligence that supports revenue optimization, customer segmentation, and strategic decision-making.
+This project demonstrates an **end-to-end data analytics workflow**, transforming raw retail transaction data into actionable insights for **revenue optimization and customer segmentation**.
 
-📌 Business Problem
+---
 
-A retail company aims to better understand customer purchasing behavior across demographics, product categories, and channels. The goal is to identify:
+## 📌 Project Summary
 
-Key drivers of customer spending
-High-value customer segments
-Impact of discounts, subscriptions, and shipping preferences
-Opportunities to improve retention and revenue
-🎯 Objective
+| Section | Details |
+|--------|--------|
+| **Business Problem** | Understand customer purchasing behavior to improve revenue, retention, and marketing strategies |
+| **Objective** | Identify trends, high-value segments, and key drivers influencing customer purchases |
+| **Dataset Size** | 3,900 transactions |
+| **Features** | 18 columns (demographics, purchase behavior, subscription, discounts, etc.) |
+| **Approach** | Python → SQL → Power BI (end-to-end analytics pipeline) |
 
-To analyze customer transaction data and answer:
+---
 
-How can consumer shopping data be leveraged to identify trends, improve customer engagement, and optimize business strategies?
+## ⚙️ Workflow & Methodology
 
-📂 Dataset Overview
-Total Records: 3,900 transactions
-Features: 18 columns
-Data Includes:
-Customer demographics (Age, Gender, Location)
-Purchase details (Category, Product, Amount, Season)
-Behavioral attributes (Discount usage, Subscription status, Purchase frequency, Review rating, Shipping type)
-⚙️ Project Workflow
-1️⃣ Data Preparation & Feature Engineering (Python)
-Loaded and explored dataset using Pandas
-Handled missing values (review ratings imputed using median)
-Standardized column formats for consistency
-Created new features:
-age_group for segmentation
-purchase_frequency for behavioral analysis
-Ensured data quality and consistency before analysis
-2️⃣ Data Analysis (SQL)
-Loaded cleaned dataset into PostgreSQL
-Performed structured analysis using SQL queries:
-Revenue analysis by customer demographics
-Identification of high-spending discount users
-Product performance based on ratings
-Shipping type impact on purchase behavior
-Subscription vs non-subscription revenue comparison
-Customer segmentation (New, Returning, Loyal)
-Repeat purchase behavior and loyalty trends
-3️⃣ Data Visualization (Power BI)
-Built an interactive dashboard to present insights
-Developed key KPIs:
-Total customers
-Average purchase value
-Customer segmentation distribution
-Designed visualizations:
-Revenue by category and age group
-Customer distribution by subscription status
-Sales trends and product performance
-Enabled filters and drill-down analysis for deeper insights
-📊 Key Insights
-Subscription customers contribute ~45% of total revenue and show higher retention
-Express shipping users spend ~12% more per transaction, indicating premium behavior
-Discounts attract high-value customers who still maintain above-average spending
-Clear segmentation into New, Returning, and Loyal customers enables targeted engagement
-Certain product categories consistently receive higher ratings, indicating strong customer preference
-💡 Business Recommendations
-Promote subscription programs to increase customer lifetime value
-Implement loyalty programs to convert new customers into repeat buyers
-Optimize discount strategies to balance revenue and profitability
-Focus on high-performing product categories in marketing campaigns
-Target premium segments (e.g., express shipping users) with personalized offers
-🛠️ Tools & Technologies
-Python: Pandas, Data Cleaning, Feature Engineering
-SQL (PostgreSQL): Data querying, segmentation, business analysis
-Power BI: Data modeling, DAX, dashboard development
-Excel: Data preparation and validation
+### 1️⃣ Data Preparation (Python)
 
+| Task | Description |
+|-----|------------|
+| Data Cleaning | Handled missing values (review ratings imputed using median) |
+| Feature Engineering | Created age groups and purchase frequency metrics |
+| Data Validation | Ensured consistency and structure |
 
-🚀 Key Highlights
-End-to-end analytics pipeline (Python → SQL → Power BI)
-Strong focus on business-driven insights, not just visualization
-Customer segmentation and behavioral analysis
-Real-world retail analytics use case
-📌 Conclusion
+---
 
-This project showcases the ability to:
+### 2️⃣ Data Analysis (SQL)
 
-Translate raw data into actionable insights
-Apply analytical thinking across tools
-Build business-oriented dashboards
-Communicate findings effectively for decision-making
+| Analysis Area | Description |
+|--------------|------------|
+| Revenue Analysis | Compared revenue across customer segments |
+| Customer Segmentation | Classified users into New, Returning, Loyal |
+| Discount Behavior | Identified high-spending discount users |
+| Subscription Impact | Analyzed contribution and retention trends |
+
+---
+
+### 3️⃣ Data Visualization (Power BI)
+
+| Feature | Description |
+|--------|------------|
+| Dashboard | Interactive multi-page dashboard |
+| KPIs | Total customers, avg purchase value, segmentation |
+| Visuals | Revenue trends, category insights, demographic analysis |
+| Interactivity | Filters and drill-down capabilities |
+
+---
+
+## 📊 Key Insights
+
+| Insight Area | Findings |
+|-------------|---------|
+| **Revenue Contribution** | Subscription customers contribute ~45% of total revenue |
+| **Customer Loyalty** | Subscribers show ~78% repeat purchase behavior |
+| **Spending Behavior** | Express shipping users spend ~12% more per transaction |
+| **Segmentation** | Clear grouping into New, Returning, Loyal customers |
+| **Discount Impact** | High-value users leverage discounts effectively |
+
+---
+
+## 💡 Business Recommendations
+
+| Focus Area | Recommendation |
+|-----------|---------------|
+| **Retention** | Promote subscription-based offerings |
+| **Loyalty Growth** | Introduce reward programs for repeat buyers |
+| **Pricing Strategy** | Optimize discount usage |
+| **Marketing** | Target high-value and premium segments |
+| **Product Strategy** | Highlight top-performing products |
+
+---
+
+## 🛠️ Tools & Technologies
+
+| Category | Tools |
+|---------|------|
+| Programming | Python (Pandas) |
+| Database | PostgreSQL |
+| Visualization | Power BI (DAX, Data Modeling) |
+| Data Handling | Excel |
+
+---
+
